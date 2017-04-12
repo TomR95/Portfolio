@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:400,700');
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,8 @@
 body {
     background-color: #F5F5F5;
     color: #67727A;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+    
 }
 h2 {
     font-size: 250%;
@@ -18,31 +18,31 @@ h2 {
     color: #F5F5F5;
 }
 h3 {
-    font-size: 175%;
+    font-size: 200%;
     font-weight: bold;
+    text-align: center;
     line-height: 155%;
     padding: 5% 0;
     font-weight: 400;
     color: #F5F5F5;
 }
 p {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 75%;
     color: #F5F5F5;
     font-size: 160%;
     line-height: 150%;
     padding: 3%;
-    text-indent: 2%;
+    text-indent: 1%;
     text-align: justify;
 }
 img {
     max-width: 100%;
     height: auto;
     width: auto;
-    margin-bottom: -4px;
 }
 header {
-    background-color: #5F5F5F;
+    background-color: #2F4F4F;
     width: 100%;
     height: 86px;
 }
@@ -51,23 +51,24 @@ header {
     margin: 0 auto;
 }
 #logo {
-    margin: 20px;
+    margin: 15px;
     float: left;
-    width: 250px;
-    height: 65px;
-    background: url(img/TR%20Logo.png) no-repeat center;
+    width: 300px;
+    height: 70px;
+    background: url(img/TR_M.png) no-repeat center;
 }
-/#--- Start navigation--#/
+/*--- Start navigation--*/
 nav {
-    float: right;
-    padding: 25px 20px 0 0;
+    float: left;
+    padding: 25px 91px 0 0;
+    text-align: center;
 }
 #menu-icon {
-    display: hidden;
+    display: none;
     width: 40px;
     height: 40px;
     background: url(img/nav.png) center;
-    
+
 }
 a:hover#menu-icon {
     border-radius: 4px 4px 0 0;
@@ -78,10 +79,12 @@ ul {
 nav ul li{
     font-family: 'Ubuntu' sans-serif;
     font-size: 150%;
+    /* Added margin 0 auto to try and fix center issue */
+    margin: 0 auto;
     font-weight: bold;
     display: inline-block;
     float: left;
-    padding: 10px;
+    padding: 15px;
 }
 nav ul li a {
     color: #FFF;
@@ -95,11 +98,14 @@ nav ul li a:hover {
 }
 /*End navigation */
 .banner {
-    width: 100%; 
+    width: 100%;
+    height: 100%;
     background-color: #DCDCDC;
 }
 .banner-inner {
-    max-width: 1100px;
+    max-width: 1300px;
+    max-height: 1000px;
+    width: 50%;
     margin: 0 auto;
 }
 .one-fourth {
@@ -108,16 +114,20 @@ nav ul li a:hover {
     text-align: center;
 }
 #html {
-    background-color: #F1AA90;
+    background-color: #8B0000
+;
 }
 #css {
-    background-color: #BEB9AD;
+    background-color: #2F4F4F;
 }
-#seo {
-    background-color: #AADCD2;
+#js {
+    background-color: #663399
+;
 }
-#social {
-    background-color: #A2B2C1;
+#php {
+    background-color: #3CB371;
+
+;
 }
 .one-fourth i {
     color: #F0F0F0;
@@ -145,20 +155,23 @@ aside {
     height: auto;
 }
 #tablet2 {
-    background-color: #A2B1C1;
+    background-color: #2F4F4F
+;
+;
 }
 #mobile {
-    background-color: #BEB9AD;
+    background-color: #2F4F4F;
+;
 }
 #desktop {
-    background-color: #F1AA90;
+    background-color: #2F4F4F;
 }
 .inner-wrapper-2 {
     float: left;
     width: 100%;
-    background-color: #C3D7DF;
+    background-color: #DCDCDC;
 }
-.inner-wrapper-3; {
+.inner-wrapper-3 {
     float: left;
     width: 100%;
     background-color: #AADCD2;
@@ -168,23 +181,26 @@ aside {
     float: left;
     text-align: center;
 }
-#google {
-    background-color: #A2B1C1;
+#frontend {
+    background-color: #8B0000;
 }
-#marketing {
-    background-color: #BEB9AD;
+#accessible {
+    background-color: #2F4F4F;
 }
-#customers {
-    background-color: #AADCD2;
+#moderndesign {
+    background-color: #663399; 663399
+;
 }
-#smiley {
-    background-color: #AADCD2;
+#Btext {
+    background-color: #191970
+;
     padding: 0 0 1%;
     clear: both;
 }
 /*---Start footer--*/
 footer {
-    background-color: #6991AC;
+    background-color: #191970
+;
     width: 100%;
 }
 .social {
@@ -205,13 +221,57 @@ footer {
 }
 footer.second {
     border-top: 1px solid #AADCD2;
-    background-color: #544B59;
+    background-color: #2F4F4F;
     max-height: 55px;
     margin: 0;
 }
 footer.second p {
     padding: 5px 0 9px 0;
     text-align: center;
+}
+/*--- Adds circle effect to an image ---*/
+.img-circle {
+    border-radius: 50%;
+}
+.profile-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+/*--- Added hover crm image ---*/
+.crm {
+    max-width: 100%;
+    max-height: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height:525px;
+    display:block;
+    background:transparent url(img/crmbefore.PNG) center top no-repeat;
+}
+.crm:hover {
+   background-image: url(img/crmafter.PNG);
+}
+.info_crm {
+    color: #67727A;
+    text-align: center;
+    font-family: 'PT Sans' sans-serif;
+}
+.info_uri {
+    color: black;
+    text-align: center;
+    font-family: 'PT Sans' sans-serif;
+}
+
+/*--- Centered uri image ---*/
+.uri {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    width: 50;
 }
 /*------- MOBILE ---*/
 @media screen and (max-width: 768px) {
@@ -228,7 +288,7 @@ footer.second p {
         position: absolute;
     }
     #logo {
-        margin: 15px 0 20px -25px;
+        margin: 15px 0 20px -100px;
         background: url(img/TR_M.png) no-repeat center;
     }
     #menu-icon {
@@ -239,7 +299,7 @@ footer.second p {
         z-index: 1000;
         position: absolute;
         padding: 20px;
-        background: #6991AC;
+        background: #000000;
         right: 20px;
         top: 60px;
         border: 2px solid #FFF;

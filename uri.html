@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title> URI Input Form </title>
+  </head>
+
+  <body>
+    <p>Please enter data into the fields below, then click "Submit".</p>
+    <!-- This is the input form in which users will enter their data -->
+    <form id="frm1" action="/action_page.php">
+      Programme ID:
+      <br>
+      <input type="number" name="programme_id">
+      <br> Channel ID:
+      <br>
+      <input type="number" name="channel_id">
+      <br> Redirect To:
+      <br>
+      <input type="string" name="redirect_to">
+      <br>
+      <br>
+      <input type="button" onclick="myFunction()" value="Submit">
+      <button type="button" onclick="document.getElementById('uri').innerHTML = Date()"> Click me to display URI link</button>
+    </form>
+    <p id="uri"></p>
+    <!-- script to generate URI link -->
+    <!-- myFunction is for the Submit button -->
+    <script>
+      function myFunction() {
+        document.getElementById("frm1").submit();
+      }
+
+    </script>
+  </body>
+
+</html>
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Base 64 Encode</title>
+</head>
+<body>
+    <script>
+    var ProgrammeID_String = "programme_id, integer";
+    var ChannelID_String = "channel_id, integer";
+    var RedirectTo_String = "redirect_to, string";
+    var b64 = btoa(ProgrammeID_String);
+    var b64 = btoa(ChannelID_String);
+    var b64 = btoa(RedirectTo_String);
+    var unicode = atob(b64);
+    console.log(b64);
+    console.log(unicode)
+    </script>    
+</body>
+</html>
+-->
