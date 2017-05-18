@@ -5,7 +5,7 @@
     border: 0;
 }
 body {
-    background-color: #F5F5F5;
+    background-color: #DCDCDC;
     color: #67727A;
     font-family: 'ubuntu', sans-serif;
     
@@ -298,6 +298,16 @@ footer.second p {
     width: 50%;
     height: 525px;
     display: block; ---*/
+}
+.profile_picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    width: 50%; 
+    border-radius: 10%;
+    box-shadow: 8px 8px 10px #aaa;
+}
 }
 /* --- first image on homepage ---*/
 .intro {
