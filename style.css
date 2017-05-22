@@ -4,12 +4,13 @@
     padding: 0;
     border: 0;
 }
+
 body {
     background-color: #F5F5F5;
     color: #67727A;
     font-family: 'ubuntu', sans-serif;
-    
 }
+
 h2 {
     font-size: 250%;
     font-weight: bold;
@@ -17,6 +18,7 @@ h2 {
     padding-top: 2%;
     color: #F5F5F5;
 }
+
 h3 {
     font-size: 200%;
     font-weight: bold;
@@ -26,6 +28,7 @@ h3 {
     font-weight: 400;
     color: #F5F5F5;
 }
+
 p {
     font-family: 'PT Sans', sans-serif;
     font-size: 75%;
@@ -36,20 +39,24 @@ p {
     text-indent: 1%;
     text-align: justify;
 }
+
 img {
     max-width: 100%;
     height: auto;
     width: auto;
 }
+
 header {
     background-color: #2F4F4F;
     width: 100%;
     height: 86px;
 }
+
 #header-inner {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 #logo {
     margin: 15px;
     float: left;
@@ -57,26 +64,32 @@ header {
     height: 70px;
     background: url(img/TR_M.png) no-repeat center;
 }
+
+
 /*--- Start navigation--*/
+
 nav {
     float: left;
     padding: 25px 91px 0 0;
     text-align: center;
 }
+
 #menu-icon {
     display: hidden;
     width: 40px;
     height: 40px;
     background: url(img/nav.png) center;
-
 }
+
 a:hover#menu-icon {
     border-radius: 4px 4px 0 0;
 }
+
 ul {
     list-style-type: none;
 }
-nav ul li{
+
+nav ul li {
     font-family: 'Ubuntu' sans-serif;
     font-size: 150%;
     /* Added margin 0 auto to try and fix center issue */
@@ -86,153 +99,187 @@ nav ul li{
     float: left;
     padding: 15px;
 }
+
 nav ul li a {
     color: #FFF;
     text-decoration: none;
 }
+
 nav ul li a:hover {
     color: #C3D7DF;
 }
+
 .current {
     color: #C3D7DF;
 }
+
+
 /*End navigation */
+
 .banner {
     width: 100%;
     height: 100%;
     background-color: #DCDCDC;
 }
+
 .banner-inner {
     max-width: 1300px;
     max-height: 1000px;
     width: 50%;
     margin: 0 auto;
 }
+
 .one-fourth {
     width: 25%;
     float: left;
     text-align: center;
 }
+
 #html {
-    background-color: #8B0000
-;
+    background-color: #8B0000;
 }
+
 #css {
     background-color: #2F4F4F;
 }
+
 #js {
-    background-color: #663399
-;
+    background-color: #663399;
 }
+
 #php {
     background-color: #3CB371;
-
-;
+    ;
 }
+
 .one-fourth i {
     color: #F0F0F0;
     font-size: 500%;
     padding: 13% 0 4% 0;
 }
+
 .inner-wrapper {
     float: left;
     width: 100%;
     background-color: #DCDCDC;
 }
+
 article {
     float: left;
     margin: 0 auto;
     width: 50%;
     height: auto;
 }
+
 #tablet {
     background-color: #DCDCDC;
 }
+
 aside {
     float: right;
     margin: 0 auto;
     width: 50%;
     height: auto;
 }
+
 #tablet2 {
-    background-color: #2F4F4F
-;
-;
+    background-color: #2F4F4F;
+    ;
 }
+
 #mobile {
     background-color: #2F4F4F;
-;
+    ;
 }
+
 #desktop {
     background-color: #2F4F4F;
 }
+
 .inner-wrapper-2 {
     float: left;
     width: 100%;
     background-color: #DCDCDC;
 }
+
 .inner-wrapper-3 {
     float: left;
     width: 100%;
     background-color: #AADCD2;
 }
+
 .one-third {
     width: 33.3333333%;
     float: left;
     text-align: center;
 }
+
 #frontend {
     background-color: #8B0000;
 }
+
 #accessible {
     background-color: #2F4F4F;
 }
+
 #moderndesign {
-    background-color: #663399; 663399
-;
+    background-color: #663399;
+    663399;
 }
+
 #Btext {
-    background-color: #191970
-;
+    background-color: #191970;
     padding: 0 0 1%;
     clear: both;
 }
+
+
 /*---Start footer--*/
+
 footer {
-    background-color: #191970
-;
+    background-color: #191970;
     width: 100%;
 }
+
 .social {
     list-style-type: none;
     text-align: center;
 }
+
 .social li {
     display: inline;
 }
+
 .social i {
     font-size: 460%;
     margin: 1%;
     padding: 5% 5% 5% 4%;
     color: #C3D7DF;
 }
+
 .social i:hover {
     color: #F5F5F5;
 }
+
 footer.second {
     border-top: 1px solid #AADCD2;
     background-color: #2F4F4F;
     max-height: 55px;
     margin: 0;
 }
+
 footer.second p {
     padding: 5px 0 9px 0;
     text-align: center;
 }
+
+
 /*--- Adds circle effect to an image ---*/
+
 .img-circle {
     border-radius: 50%;
 }
+
 .profile-photo {
     max-width: 100%;
     height: auto;
@@ -240,32 +287,40 @@ footer.second p {
     margin: auto;
     width: 100%;
 }
+
+
 /*--- Added hover crm image ---*/
+
 .crm {
     max-width: 100%;
     max-height: 50%;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 100%;
-    height:525px;
-    display:block;
-    background:transparent url(img/crmbefore.PNG) center top no-repeat;
+    height: 525px;
+    display: block;
+    background: transparent url(img/crmbefore.PNG) center top no-repeat;
 }
+
 .crm:hover {
-   background-image: url(img/crmafter.PNG);
+    background-image: url(img/crmafter.PNG);
 }
+
 .info_crm {
     color: #67727A;
     text-align: center;
     font-family: 'PT Sans' sans-serif;
 }
+
 .info_uri {
     color: black;
     text-align: center;
     font-family: 'PT Sans' sans-serif;
 }
 
+
 /*--- Centered uri image ---*/
+
 .uri {
     max-width: 100%;
     height: auto;
@@ -273,15 +328,53 @@ footer.second p {
     margin: auto;
     width: 50%;
 }
+
 .coggles {
-  max-width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
- /*---Image classes ---*/
+
+.cvdesc {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+/*---Image classes ---*/
+
 .ipad {
     max-width: 100%;
     max-height: 50%;
@@ -291,6 +384,7 @@ footer.second p {
     height: 525px;
     display: block;
 }
+
 .iphone {
     max-width: 100%;
     height: auto;
@@ -299,7 +393,7 @@ footer.second p {
     width: 50%;
     margin-top: 50px;
     margin-bottom: 0px;
-   /*-- max-width: 100%;
+    /*-- max-width: 100%;
     max-height: 50%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -307,7 +401,10 @@ footer.second p {
     height: 525px;
     display: block; ---*/
 }
+
+
 /* --- first image on homepage ---*/
+
 .intro {
     max-width: 150%;
     height: auto;
@@ -316,7 +413,10 @@ footer.second p {
     width: 100%;
     margin-bottom: 15px;
 }
+
+
 /*------- MOBILE ---*/
+
 @media screen and (max-width: 768px) {
     h2 {
         font-size: 150%;
@@ -337,7 +437,8 @@ footer.second p {
     #menu-icon {
         display: inline-block;
     }
-    nav ul, nav:active ul {
+    nav ul,
+    nav:active ul {
         display: none;
         z-index: 1000;
         position: absolute;
@@ -383,15 +484,22 @@ footer.second p {
     .social i {
         font-size: 180%;
     }
+    .pdf {
+        display: none;
+    }
+    .crm {
+        /*--- Added code to center img on mobile and make it smaller ---*/
+        max-width: 100%;
+        max-height: 50%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 525px;
+        display: block;
+    }
 }
-
-
-
-
-
-
-
-
 
 
 }
