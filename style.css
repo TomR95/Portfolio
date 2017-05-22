@@ -5,7 +5,7 @@
     border: 0;
 }
 body {
-    background-color: #DCDCDC;
+    background-color: #F5F5F5;
     color: #67727A;
     font-family: 'ubuntu', sans-serif;
     
@@ -64,7 +64,7 @@ nav {
     text-align: center;
 }
 #menu-icon {
-    display: none;
+    display: hidden;
     width: 40px;
     height: 40px;
     background: url(img/nav.png) center;
@@ -273,6 +273,14 @@ footer.second p {
     margin: auto;
     width: 50%;
 }
+.coggles {
+  max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
  /*---Image classes ---*/
 .ipad {
     max-width: 100%;
@@ -299,16 +307,6 @@ footer.second p {
     height: 525px;
     display: block; ---*/
 }
-.profile_picture {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-    width: 50%; 
-    border-radius: 10%;
-    box-shadow: 8px 8px 10px #aaa;
-}
-}
 /* --- first image on homepage ---*/
 .intro {
     max-width: 150%;
@@ -333,7 +331,7 @@ footer.second p {
         position: absolute;
     }
     #logo {
-        margin: 15px 0 20px -100px;
+        margin: 15px 0px 20px -100px;
         background: url(img/TR_M.png) no-repeat center;
     }
     #menu-icon {
